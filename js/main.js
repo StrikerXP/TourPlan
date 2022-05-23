@@ -1,11 +1,11 @@
-const swiper = new Swiper(".swiper", {
+const hotelSlider = new Swiper(".swiper", {
   // Optional parameters
   loop: true,
-  
+
   // Navigation arrows
   navigation: {
-    nextEl: ".slider-button--next",
-    prevEl: ".slider-button--prev",
+    nextEl: ".slider__button--next",
+    prevEl: ".slider__button--prev",
   },
 
   // And if we need scrollbar

@@ -789,7 +789,7 @@ template {
   }
 }
 @media (max-width: 992px) {
-  .container {
+  .container .newsletter-wrapper {
     max-width: 760px;
   }
 
@@ -903,6 +903,13 @@ template {
   .map {
     width: 100%;
   }
+
+  .newsletter-wrapper {
+    flex-direction: column;
+    max-width: 576px;
+    width: 92%;
+    align-items: flex-start;
+  }
 }
 @media (max-width: 576px) {
   .logo {
@@ -911,6 +918,16 @@ template {
 
   .swiper {
     height: calc(100px + 35vw);
+  }
+
+  .newsletter-wrapper {
+    flex-direction: column;
+    max-width: 320px;
+    width: 92%;
+    align-items: flex-start;
+  }
+  .newsletter__subscribe {
+    max-width: 100%;
   }
 }
 
